@@ -1,4 +1,4 @@
-const baseUrl = 'https://raw.githubusercontent.com/acookienot/bitburner/master/';
+const baseUrl = 'https://raw.githubusercontent.com/acookienot/bitburner/main/';
 const url = path => `${baseUrl}${path}`;
 
 async function getFile(ns, file) {
